@@ -9,30 +9,6 @@
 /*   Solved: 2025/07/24 22:52:32 by lawpea38      ###          ###   ##.kr    */
 /*                                                                            */
 /* ************************************************************************** */
-/*
-import java.io.IOException;
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.util.Arrays;
-
-public class Main {
-    public static void main(String[] args) throws IOException{
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String str = br.readLine();
-        int[] arr= new int[26];
-        Arrays.fill(arr,-1);
-        for(int i=0; i<str.length();i++) {
-            int c = str.charAt(i)- 'a';
-            if(arr[c]==-1) {
-                arr[c] = i;
-            }
-        }
-        for(int k=0; k<26; k++){
-            System.out.print(arr[k]+" ");
-        }
-        }
-    } */
-
     import java.io.IOException;
     import java.io.BufferedReader;
     import java.io.InputStreamReader;
