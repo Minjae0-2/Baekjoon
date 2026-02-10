@@ -32,7 +32,6 @@ public class Main {
             if(max <= arr[i]) max= arr[i];
         }
         // 이분탐색으로 내려가자
-        // 이분탐색으로 내려가자
         long sumCount = 0;
 
         long left = 1;
